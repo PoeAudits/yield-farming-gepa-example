@@ -1,0 +1,20 @@
+# optimize-anything
+
+optimize-anything project
+
+## Quick Start
+
+```bash
+make install  # Install dependencies
+make build    # Build the project
+make test     # Run tests
+```
+
+## Development
+
+```bash
+make fmt      # Format code
+make lint     # Lint code
+make clean    # Clean build artifacts
+make help     # Show all commands
+```
