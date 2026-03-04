@@ -1,0 +1,40 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "optimize_anything"
+version = "0.1.0"
+description = "Tools for optimizing anything"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "gepa",
+  "litellm",
+]
+
+[dependency-groups]
+dev = [
+  "pytest",
+  "ruff",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/optimize_anything", "src/embedding_cohesion"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+src = ["src", "tests", "src/embedding_cohesion"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+pythonpath = ["src", "examples", "src/embedding_cohesion"]
+testpaths = ["tests"]

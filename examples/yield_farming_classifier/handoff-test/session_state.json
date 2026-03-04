@@ -1,0 +1,133 @@
+{
+  "current_iteration": 1,
+  "handoff_dir": "/home/thomas/Overlord/projects/ml/optimize-anything/examples/yield_farming_classifier/handoff-test",
+  "run_dir": "/home/thomas/Overlord/projects/ml/optimize-anything/examples/yield_farming_classifier/handoff-test",
+  "score_history": [],
+  "session_metadata": {
+    "interactive_mode": "start",
+    "reflective_dataset": {
+      "system_prompt": [
+        {
+          "confidence": "0.9999337196",
+          "error": null,
+          "expected": "yes",
+          "explanation": "",
+          "input": "On aave deployed on Celo... SelfProtocol users are farming 2x style yields simply by proving they re human. Just verification higher APY. There are live opportunities right now USDT supply 10.7% APY wETH supply 2.25% APY Strategy play Supply wETH CELO Borrow USDT There's also 5.12% APY plus bonus yield. It ends on the 29th of January, so what sre you waiting for Reposted Defi Neo",
+          "match": true,
+          "predicted_category": "yield_farming",
+          "response": "yes",
+          "source_file": "agreed",
+          "type": "success"
+        },
+        {
+          "confidence": "1",
+          "error": null,
+          "expected": "yes",
+          "explanation": "",
+          "input": "Earn stablecoin rewards with Aave on Celo USDT incentives are now live Supply USDT 4% APY Supply wETH 2.25% fixed APY Supply wETH CELO & borrow USDT 4.28% bonus APY Verify your humanity w SelfProtocol 2x rewards Learn how it works & get started Reposted StabilaFnd",
+          "match": true,
+          "predicted_category": "yield_farming",
+          "response": "yes",
+          "source_file": "agreed",
+          "type": "success"
+        },
+        {
+          "confidence": "0.5698519945",
+          "error": null,
+          "expected": "no",
+          "explanation": "",
+          "input": "BANXCHANGE BXE has been listed on BitMart BanXchange Deposit feature Available Trade feature 1 28 2026 11 00 AM UTC Withdrawal feature 1 29 2026 11 00 AM UTC Trade MORE Posted",
+          "match": true,
+          "predicted_category": "filter_out",
+          "response": "no",
+          "source_file": "low_confidence",
+          "type": "success"
+        },
+        {
+          "confidence": "0.7652919292",
+          "error": null,
+          "expected": "no",
+          "explanation": "",
+          "input": "The second week s mining rewards for USDD 2.0 Supply Mining Phase XIV are now live. Your rewards are ready to be claimed on JustLendDAO. usddio Guide to claim your rewards Claim directly here Reposted DeFi JUST",
+          "match": true,
+          "predicted_category": "filter_out",
+          "response": "no",
+          "source_file": "low_confidence",
+          "type": "success"
+        },
+        {
+          "confidence": "0.9814301133",
+          "error": null,
+          "expected": "no",
+          "explanation": "",
+          "input": "Livepeer x SpritzChat Decentralized messaging app enabling live broadcasts in regions where access is restricted or infrastructure is unreliable. Spritz uses Livepeer to transcode video streams across varying network conditions Reposted Livepeer",
+          "match": true,
+          "predicted_category": "filter_out",
+          "response": "no",
+          "source_file": "low_confidence",
+          "type": "success"
+        },
+        {
+          "confidence": "0.9999990463",
+          "error": null,
+          "expected": "yes",
+          "explanation": "",
+          "input": "One week after launch, the frxUSD OUSD pool on CurveFinance has surpassed $1M in TVL. LPs are currently earning up to 19.7% APY through co incentives from fraxfinance and Origin, elevated further by Pool Booster 1 3 Posted",
+          "match": false,
+          "predicted_category": "yield_farming",
+          "response": "no",
+          "source_file": "agreed",
+          "type": "success"
+        },
+        {
+          "confidence": "0.9343950152",
+          "error": null,
+          "expected": "yes",
+          "explanation": "",
+          "input": "I ve found one of the BEST risk adjusted returns for your idle tETH The new pendle fi tETH pool is currently offering 4.17% APY, a massive step up from the 2.93% native rate. Why miss out on this opportunity to earn more on your idle assets Pay attention... Squirrels. Reposted squirrelbbg",
+          "match": false,
+          "predicted_category": "yield_farming",
+          "response": "no",
+          "source_file": "agreed",
+          "type": "success"
+        },
+        {
+          "confidence": "0.5812974572",
+          "error": null,
+          "expected": "no",
+          "explanation": "",
+          "input": "Welcome a new futures pair with Lighter xyz $LIT PERP The asset is available for futures trading only. Stay tuned for new futures updates Posted",
+          "match": true,
+          "predicted_category": "filter_out",
+          "response": "no",
+          "source_file": "low_confidence",
+          "type": "success"
+        },
+        {
+          "confidence": "0.9999855757",
+          "error": null,
+          "expected": "yes",
+          "explanation": "",
+          "input": "Up to 20% APR is arrived The Exclusive Binance Wallet Campaign with UTechStables is now live U Carnival Season 1 starts now. Equal Shared Prize Pool Hold on BNB Chain, or subscribe, or borrow at least 100 U in U lista dao or VenusProtocol vaults via Binance Wallet Earn to equally share $100k worth of rewards in Season 1. APR Boosted Prize Pool Subscribe at least 100 U in Venus or Lista U vaults via Binance Wallet to share $700k worth of rewards in Season 1. Check out Now Reposted BinanceWallet",
+          "match": false,
+          "predicted_category": "yield_farming",
+          "response": "no",
+          "source_file": "agreed",
+          "type": "success"
+        },
+        {
+          "confidence": "0.8534857631",
+          "error": null,
+          "expected": "no",
+          "explanation": "",
+          "input": "TRON announced the integration of the TRON network with NEXUS's CROSS Pay infrastructure, where USDT TRC 20 payments are already live and fully operational on CROSS Shop. Global users now have immediate access to purchase in game items using TRC 20 USDT, settled seamlessly on the TRON network. As the core payments layer of the CROSS gamechain ecosystem, CROSS Pay features a 0% payment fee model designed to materially reduce costs for developers and publishers. Combined with TRON s high throughput, low transaction fees, and fast settlement, the integration delivers an efficient, scalable solution for high frequency gaming transactions worldwide. More details from BitcoinNews Posted",
+          "match": true,
+          "predicted_category": "filter_out",
+          "response": "no",
+          "source_file": "low_confidence",
+          "type": "success"
+        }
+      ]
+    }
+  }
+}
